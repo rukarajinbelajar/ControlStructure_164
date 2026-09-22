@@ -8,3 +8,6 @@ if 1 >= 2 and 1 >= 3 :
 elif 2 >= 1 and 2 >= 3 :
     largest = 2
     print ("Angka terbesar adalah : ", largest)
+elif 3 >= 1 and 3>=2:
+    largest = 3
+    print ("Angka terbesar adalah : ", largest)
