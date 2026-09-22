@@ -1,0 +1,1 @@
+performance = float (input ("Enter Student Performance : "))
