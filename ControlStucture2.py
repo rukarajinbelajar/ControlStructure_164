@@ -1,15 +1,15 @@
-1 = int (input("Masukkan Angka pertama : "))
-2 = int (input("Masukkan Angka kedua: "))
-3 = int (input("Masukkan Angka ketiga: "))
+a = int (input("Masukkan Angka pertama : "))
+b = int (input("Masukkan Angka kedua: "))
+c = int (input("Masukkan Angka ketiga: "))
 
-if 1 >= 2 and 1 >= 3 :
-    largest = 1
+if a >= b and a >= c :
+    largest = a
     print ("Angka terbesar adalah : ", largest)
-elif 2 >= 1 and 2 >= 3 :
-    largest = 2
+elif b >= a and b >= c :
+    largest = b
     print ("Angka terbesar adalah : ", largest)
-elif 3 >= 1 and 3>=2:
-    largest = 3
+elif c >= a and c>=b:
+    largest = c
     print ("Angka terbesar adalah : ", largest)
 else:
     print ("Tidak ada angka terbesar")
